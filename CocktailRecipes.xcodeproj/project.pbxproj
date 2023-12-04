@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		9434658E2B1617B400D92841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434658D2B1617B400D92841 /* AppDelegate.swift */; };
 		943465902B1617B400D92841 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434658F2B1617B400D92841 /* SceneDelegate.swift */; };
-		943465922B1617B400D92841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465912B1617B400D92841 /* ViewController.swift */; };
-		943465952B1617B400D92841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943465932B1617B400D92841 /* Main.storyboard */; };
+		943465922B1617B400D92841 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465912B1617B400D92841 /* RecipesViewController.swift */; };
 		943465972B1617B500D92841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943465962B1617B500D92841 /* Assets.xcassets */; };
 		9434659A2B1617B500D92841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943465982B1617B500D92841 /* LaunchScreen.storyboard */; };
+		943465A22B16186C00D92841 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 943465A12B16186C00D92841 /* .gitignore */; };
+		943465A62B164F0900D92841 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 943465A52B164F0900D92841 /* SnapKit */; };
+		943465AA2B1650AC00D92841 /* TableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465A92B1650AC00D92841 /* TableHeaderView.swift */; };
+		943465AD2B16514D00D92841 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 943465AC2B16514D00D92841 /* GoogleMobileAds */; };
+		943465AF2B1651AF00D92841 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465AE2B1651AF00D92841 /* MainViewCell.swift */; };
+		943465B12B16531A00D92841 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465B02B16531A00D92841 /* Constants.swift */; };
+		943465B42B165FA200D92841 /* CoctailSmallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465B32B165FA200D92841 /* CoctailSmallData.swift */; };
+		94E3BE192B18C2F300D214E9 /* SF-Pro-Text-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE132B18C2F200D214E9 /* SF-Pro-Text-Thin.otf */; };
+		94E3BE1A2B18C2F300D214E9 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE142B18C2F300D214E9 /* SF-Pro-Text-Medium.otf */; };
+		94E3BE1B2B18C2F300D214E9 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE152B18C2F300D214E9 /* SF-Pro-Text-Bold.otf */; };
+		94E3BE1C2B18C2F300D214E9 /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE162B18C2F300D214E9 /* SF-Pro-Text-Light.otf */; };
+		94E3BE1D2B18C2F300D214E9 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE172B18C2F300D214E9 /* SF-Pro-Text-Regular.otf */; };
+		94E3BE1E2B18C2F300D214E9 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE182B18C2F300D214E9 /* SF-Pro-Text-Semibold.otf */; };
+		94E3BE282B1D37C400D214E9 /* CoctailsDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E3BE272B1D37C400D214E9 /* CoctailsDataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9434658A2B1617B400D92841 /* CocktailRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9434658D2B1617B400D92841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9434658F2B1617B400D92841 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		943465912B1617B400D92841 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		943465942B1617B400D92841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		943465912B1617B400D92841 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		943465962B1617B500D92841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943465992B1617B500D92841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9434659B2B1617B500D92841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943465A12B16186C00D92841 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		943465A92B1650AC00D92841 /* TableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeaderView.swift; sourceTree = "<group>"; };
+		943465AE2B1651AF00D92841 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		943465B02B16531A00D92841 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		943465B32B165FA200D92841 /* CoctailSmallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailSmallData.swift; sourceTree = "<group>"; };
+		94E3BE132B18C2F200D214E9 /* SF-Pro-Text-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Thin.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Thin.otf"; sourceTree = "<group>"; };
+		94E3BE142B18C2F300D214E9 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Medium.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		94E3BE152B18C2F300D214E9 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Bold.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		94E3BE162B18C2F300D214E9 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Light.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		94E3BE172B18C2F300D214E9 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Regular.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		94E3BE182B18C2F300D214E9 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Semibold.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		94E3BE272B1D37C400D214E9 /* CoctailsDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsDataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943465AD2B16514D00D92841 /* GoogleMobileAds in Frameworks */,
+				943465A62B164F0900D92841 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,7 @@
 		943465812B1617B400D92841 = {
 			isa = PBXGroup;
 			children = (
+				943465A12B16186C00D92841 /* .gitignore */,
 				9434658C2B1617B400D92841 /* CocktailRecipes */,
 				9434658B2B1617B400D92841 /* Products */,
 			);
@@ -56,15 +83,65 @@
 		9434658C2B1617B400D92841 /* CocktailRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				94E3BE272B1D37C400D214E9 /* CoctailsDataBase.swift */,
+				943465B22B165F4B00D92841 /* Model */,
+				943465A72B16508D00D92841 /* Controller */,
+				943465A82B16509500D92841 /* View */,
+				943465A32B16187E00D92841 /* Supporting files */,
+			);
+			path = CocktailRecipes;
+			sourceTree = "<group>";
+		};
+		943465A32B16187E00D92841 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				94E3BE122B18C2E600D214E9 /* Fonts */,
+				943465B02B16531A00D92841 /* Constants.swift */,
 				9434658D2B1617B400D92841 /* AppDelegate.swift */,
 				9434658F2B1617B400D92841 /* SceneDelegate.swift */,
-				943465912B1617B400D92841 /* ViewController.swift */,
-				943465932B1617B400D92841 /* Main.storyboard */,
 				943465962B1617B500D92841 /* Assets.xcassets */,
 				943465982B1617B500D92841 /* LaunchScreen.storyboard */,
 				9434659B2B1617B500D92841 /* Info.plist */,
 			);
-			path = CocktailRecipes;
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		943465A72B16508D00D92841 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				943465912B1617B400D92841 /* RecipesViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		943465A82B16509500D92841 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				943465A92B1650AC00D92841 /* TableHeaderView.swift */,
+				943465AE2B1651AF00D92841 /* MainViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		943465B22B165F4B00D92841 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				943465B32B165FA200D92841 /* CoctailSmallData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94E3BE122B18C2E600D214E9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				94E3BE152B18C2F300D214E9 /* SF-Pro-Text-Bold.otf */,
+				94E3BE162B18C2F300D214E9 /* SF-Pro-Text-Light.otf */,
+				94E3BE142B18C2F300D214E9 /* SF-Pro-Text-Medium.otf */,
+				94E3BE172B18C2F300D214E9 /* SF-Pro-Text-Regular.otf */,
+				94E3BE182B18C2F300D214E9 /* SF-Pro-Text-Semibold.otf */,
+				94E3BE132B18C2F200D214E9 /* SF-Pro-Text-Thin.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +160,10 @@
 			dependencies = (
 			);
 			name = CocktailRecipes;
+			packageProductDependencies = (
+				943465A52B164F0900D92841 /* SnapKit */,
+				943465AC2B16514D00D92841 /* GoogleMobileAds */,
+			);
 			productName = CocktailRecipes;
 			productReference = 9434658A2B1617B400D92841 /* CocktailRecipes.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +192,10 @@
 				Base,
 			);
 			mainGroup = 943465812B1617B400D92841;
+			packageReferences = (
+				943465A42B164F0900D92841 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				943465AB2B16514D00D92841 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = 9434658B2B1617B400D92841 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +210,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E3BE192B18C2F300D214E9 /* SF-Pro-Text-Thin.otf in Resources */,
+				943465A22B16186C00D92841 /* .gitignore in Resources */,
+				94E3BE1B2B18C2F300D214E9 /* SF-Pro-Text-Bold.otf in Resources */,
 				9434659A2B1617B500D92841 /* LaunchScreen.storyboard in Resources */,
+				94E3BE1A2B18C2F300D214E9 /* SF-Pro-Text-Medium.otf in Resources */,
+				94E3BE1C2B18C2F300D214E9 /* SF-Pro-Text-Light.otf in Resources */,
+				94E3BE1E2B18C2F300D214E9 /* SF-Pro-Text-Semibold.otf in Resources */,
+				94E3BE1D2B18C2F300D214E9 /* SF-Pro-Text-Regular.otf in Resources */,
 				943465972B1617B500D92841 /* Assets.xcassets in Resources */,
-				943465952B1617B400D92841 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				943465922B1617B400D92841 /* ViewController.swift in Sources */,
+				94E3BE282B1D37C400D214E9 /* CoctailsDataBase.swift in Sources */,
+				943465AF2B1651AF00D92841 /* MainViewCell.swift in Sources */,
+				943465AA2B1650AC00D92841 /* TableHeaderView.swift in Sources */,
+				943465B12B16531A00D92841 /* Constants.swift in Sources */,
+				943465922B1617B400D92841 /* RecipesViewController.swift in Sources */,
+				943465B42B165FA200D92841 /* CoctailSmallData.swift in Sources */,
 				9434658E2B1617B400D92841 /* AppDelegate.swift in Sources */,
 				943465902B1617B400D92841 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +243,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		943465932B1617B400D92841 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				943465942B1617B400D92841 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		943465982B1617B500D92841 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,10 +382,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J8L5S42HGH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CocktailRecipes/Info.plist;
+				INFOPLIST_FILE = "CocktailRecipes/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +392,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = MaximTvilinev.CocktailRecipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -322,10 +410,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J8L5S42HGH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CocktailRecipes/Info.plist;
+				INFOPLIST_FILE = "CocktailRecipes/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,6 +420,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = MaximTvilinev.CocktailRecipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -363,6 +451,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		943465A42B164F0900D92841 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		943465AB2B16514D00D92841 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		943465A52B164F0900D92841 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 943465A42B164F0900D92841 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		943465AC2B16514D00D92841 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 943465AB2B16514D00D92841 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 943465822B1617B400D92841 /* Project object */;
 }
