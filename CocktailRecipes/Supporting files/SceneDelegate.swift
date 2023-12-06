@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         func createMainVC() -> UINavigationController {
             let mainVC = RecipesViewController()
 
-            mainVC.title = "Рецепты"
+            mainVC.title = "CocktailRecipes"
 
             let appearance = UINavigationBarAppearance()
             appearance.backgroundColor = Colors.roseColor

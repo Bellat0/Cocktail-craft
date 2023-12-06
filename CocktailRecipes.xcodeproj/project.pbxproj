@@ -16,9 +16,10 @@
 		943465A62B164F0900D92841 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 943465A52B164F0900D92841 /* SnapKit */; };
 		943465AA2B1650AC00D92841 /* TableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465A92B1650AC00D92841 /* TableHeaderView.swift */; };
 		943465AD2B16514D00D92841 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 943465AC2B16514D00D92841 /* GoogleMobileAds */; };
-		943465AF2B1651AF00D92841 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465AE2B1651AF00D92841 /* MainViewCell.swift */; };
+		943465AF2B1651AF00D92841 /* CollapsedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465AE2B1651AF00D92841 /* CollapsedCell.swift */; };
 		943465B12B16531A00D92841 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465B02B16531A00D92841 /* Constants.swift */; };
-		943465B42B165FA200D92841 /* CoctailSmallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465B32B165FA200D92841 /* CoctailSmallData.swift */; };
+		943465B42B165FA200D92841 /* CoctailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465B32B165FA200D92841 /* CoctailData.swift */; };
+		94DCC0DE2B1F90C300B1C342 /* ExpandedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DCC0DD2B1F90C300B1C342 /* ExpandedCell.swift */; };
 		94E3BE192B18C2F300D214E9 /* SF-Pro-Text-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE132B18C2F200D214E9 /* SF-Pro-Text-Thin.otf */; };
 		94E3BE1A2B18C2F300D214E9 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE142B18C2F300D214E9 /* SF-Pro-Text-Medium.otf */; };
 		94E3BE1B2B18C2F300D214E9 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE152B18C2F300D214E9 /* SF-Pro-Text-Bold.otf */; };
@@ -26,6 +27,7 @@
 		94E3BE1D2B18C2F300D214E9 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE172B18C2F300D214E9 /* SF-Pro-Text-Regular.otf */; };
 		94E3BE1E2B18C2F300D214E9 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE182B18C2F300D214E9 /* SF-Pro-Text-Semibold.otf */; };
 		94E3BE282B1D37C400D214E9 /* CoctailsDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E3BE272B1D37C400D214E9 /* CoctailsDataBase.swift */; };
+		94E3BE342B1E4E9000D214E9 /* TableHeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E3BE332B1E4E9000D214E9 /* TableHeaderSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +40,10 @@
 		9434659B2B1617B500D92841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		943465A12B16186C00D92841 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		943465A92B1650AC00D92841 /* TableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeaderView.swift; sourceTree = "<group>"; };
-		943465AE2B1651AF00D92841 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		943465AE2B1651AF00D92841 /* CollapsedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsedCell.swift; sourceTree = "<group>"; };
 		943465B02B16531A00D92841 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		943465B32B165FA200D92841 /* CoctailSmallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailSmallData.swift; sourceTree = "<group>"; };
+		943465B32B165FA200D92841 /* CoctailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailData.swift; sourceTree = "<group>"; };
+		94DCC0DD2B1F90C300B1C342 /* ExpandedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedCell.swift; sourceTree = "<group>"; };
 		94E3BE132B18C2F200D214E9 /* SF-Pro-Text-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Thin.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Thin.otf"; sourceTree = "<group>"; };
 		94E3BE142B18C2F300D214E9 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Medium.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
 		94E3BE152B18C2F300D214E9 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Bold.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		94E3BE172B18C2F300D214E9 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Regular.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
 		94E3BE182B18C2F300D214E9 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Semibold.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
 		94E3BE272B1D37C400D214E9 /* CoctailsDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsDataBase.swift; sourceTree = "<group>"; };
+		94E3BE332B1E4E9000D214E9 /* TableHeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeaderSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				943465A92B1650AC00D92841 /* TableHeaderView.swift */,
-				943465AE2B1651AF00D92841 /* MainViewCell.swift */,
+				94E3BE332B1E4E9000D214E9 /* TableHeaderSection.swift */,
+				943465AE2B1651AF00D92841 /* CollapsedCell.swift */,
+				94DCC0DD2B1F90C300B1C342 /* ExpandedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,7 +132,7 @@
 		943465B22B165F4B00D92841 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				943465B32B165FA200D92841 /* CoctailSmallData.swift */,
+				943465B32B165FA200D92841 /* CoctailData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,11 +236,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E3BE282B1D37C400D214E9 /* CoctailsDataBase.swift in Sources */,
-				943465AF2B1651AF00D92841 /* MainViewCell.swift in Sources */,
+				943465AF2B1651AF00D92841 /* CollapsedCell.swift in Sources */,
+				94DCC0DE2B1F90C300B1C342 /* ExpandedCell.swift in Sources */,
 				943465AA2B1650AC00D92841 /* TableHeaderView.swift in Sources */,
+				94E3BE342B1E4E9000D214E9 /* TableHeaderSection.swift in Sources */,
 				943465B12B16531A00D92841 /* Constants.swift in Sources */,
 				943465922B1617B400D92841 /* RecipesViewController.swift in Sources */,
-				943465B42B165FA200D92841 /* CoctailSmallData.swift in Sources */,
+				943465B42B165FA200D92841 /* CoctailData.swift in Sources */,
 				9434658E2B1617B400D92841 /* AppDelegate.swift in Sources */,
 				943465902B1617B400D92841 /* SceneDelegate.swift in Sources */,
 			);

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainViewCell: UITableViewCell {
+class CollapsedCell: UITableViewCell {
 
     static let ID = "MainViewCell"
 
@@ -17,16 +17,23 @@ class MainViewCell: UITableViewCell {
     private let coctailImage = UIImageView()
     private let coctailTitleLabel = UILabel()
     private let coctailDescriptionEnLabel = UILabel()
-    private let arrowutton = UIButton()
+    private let arrowButton = UIButton()
+    private let verticalStackView = UIStackView()
 
-    var topicSelectionHandler: ((IndexPath) -> Void)?
+    var isCollapsed = true {
+        didSet {
+            arrowButton.setImage(isCollapsed ? UIImage(systemName: "chevron.down")
+                                 : UIImage(systemName: "chevron.up"), for: .normal)
+        }
+    }
 
     // MARK: - Init
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-
+        
         setupViews()
+        setupConstraints()
     }
 
     required init?(coder: NSCoder) {
@@ -43,67 +50,65 @@ class MainViewCell: UITableViewCell {
         rectangleView.layer.cornerRadius = 12
 
         contentView.addSubview(coctailImage)
-        coctailImage.frame.size.width = 48
-        coctailImage.frame.size.height = 48
-        coctailImage.layer.cornerRadius = coctailImage.frame.width / 2
+        coctailImage.layer.cornerRadius = 12
         coctailImage.clipsToBounds = true
         coctailImage.backgroundColor = .systemBlue
 
-        contentView.addSubview(arrowutton)
+        contentView.addSubview(arrowButton)
+        arrowButton.tintColor = .systemGray
 
         contentView.addSubview(coctailTitleLabel)
-        coctailTitleLabel.text = "Ост-индийский негрониОст-индийский негрони"
+        coctailTitleLabel.text = "Ост-индийский негрони"
         coctailTitleLabel.numberOfLines = 0
         coctailTitleLabel.font = UIFont(name: "SFProText-Semibold", size: 17)
-        coctailTitleLabel.textColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 1)
+        coctailTitleLabel.textColor = .black
 
         contentView.addSubview(coctailDescriptionEnLabel)
         coctailDescriptionEnLabel.text = "Margarita"
         coctailDescriptionEnLabel.font = UIFont(name: "SFProText-Regular", size: 13)
-        coctailDescriptionEnLabel.textColor = UIColor(red: 136/255, green: 136/255, blue: 136/255, alpha: 1)
+        coctailDescriptionEnLabel.textColor = .systemGray
+
+        contentView.addSubview(verticalStackView)
+        verticalStackView.addArrangedSubview(coctailTitleLabel)
+        verticalStackView.addArrangedSubview(coctailDescriptionEnLabel)
+        verticalStackView.axis = .vertical
+        verticalStackView.spacing = 3
     }
 
-    func collapsedRectangle() {
+    private func setupConstraints() {
         rectangleView.snp.makeConstraints { make in
-            make.leading.equalToSuperview().offset(16)
             make.top.equalToSuperview().offset(8)
-            make.trailing.equalToSuperview().offset(-16)
             make.bottom.equalToSuperview().offset(-8)
+            make.leading.equalToSuperview().offset(16)
+            make.trailing.equalToSuperview().offset(-16)
         }
 
-        coctailImage.snp.makeConstraints { make in
-            make.leading.equalTo(rectangleView.snp.leading).offset(12)
-            make.centerY.equalTo(rectangleView)
-            make.width.equalTo(48)
-            make.height.equalTo(48)
-        }
-
-        arrowutton.snp.makeConstraints { make in
+        arrowButton.snp.makeConstraints { make in
             make.trailing.equalTo(rectangleView).offset(-12)
             make.top.equalTo(rectangleView).offset(24)
             make.size.equalTo(24)
         }
 
-        coctailTitleLabel.snp.makeConstraints { make in
-            make.leading.equalTo(coctailImage.snp.trailing).offset(12)
-            make.top.equalTo(rectangleView).offset(16)
-            make.trailing.equalTo(arrowutton.snp.leading).offset(-12)
+        coctailImage.snp.makeConstraints { make in
+            make.centerY.equalTo(verticalStackView.snp.centerY)
+            make.leading.equalTo(rectangleView.snp.leading).offset(8)
+            make.size.equalTo(48)
         }
 
-        coctailDescriptionEnLabel.snp.makeConstraints { make in
+        verticalStackView.snp.makeConstraints { make in
+            make.top.equalTo(rectangleView).offset(16)
             make.leading.equalTo(coctailImage.snp.trailing).offset(12)
-            make.top.equalTo(coctailTitleLabel.snp.bottom).offset(4)
+            make.trailing.equalTo(arrowButton.snp.leading).offset(-12)
             make.bottom.equalTo(rectangleView.snp.bottom).offset(-16)
         }
     }
 
-    func expandedRectangle() {
-        rectangleView.snp.makeConstraints { make in
-            make.leading.equalToSuperview().offset(16)
-            make.top.equalToSuperview().offset(8)
-            make.trailing.equalToSuperview().offset(-16)
-            make.bottom.equalToSuperview().offset(-8)
-            make.height.equalTo(200)
-        }
+
+    // MARK: - Configure
+
+    func configure(coctailData: CoctailData) {
+        self.coctailTitleLabel.text = coctailData.title
+        self.coctailDescriptionEnLabel.text = coctailData.titleEn
+        self.coctailImage.image = UIImage(named: coctailData.image)
     }
 }

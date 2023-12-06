@@ -21,6 +21,7 @@ class TableHeaderView: UIView {
 
         bannerView = GADBannerView(adSize: GADAdSizeBanner)
         addBannerViewToView(bannerView)
+        backgroundColor = Colors.roseColor
     }
 
     required init?(coder: NSCoder) {

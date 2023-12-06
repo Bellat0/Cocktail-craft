@@ -21,7 +21,6 @@ extension UIColor {
 }
 
 enum Colors {
-    static var rectColor = UIColor.rgb(r: 247, g: 248, b: 249)
     static var roseColor = UIColor.rgb(r: 255, g: 46, b: 130)
     static var grayColor = UIColor.rgb(r: 241, g: 245, b: 251)
 }
