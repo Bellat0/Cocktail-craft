@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class RecipesViewController: UIViewController {
+class CoctailsList: UIViewController {
 
     // MARK: - Properties
 
@@ -84,7 +84,7 @@ class RecipesViewController: UIViewController {
 
 // MARK: - Table view data source
 
-extension RecipesViewController: UITableViewDelegate, UITableViewDataSource {
+extension CoctailsList: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return coctailsDataBase.count
     }
@@ -115,9 +115,18 @@ extension RecipesViewController: UITableViewDelegate, UITableViewDataSource {
             cell.configure(coctailData: coctailData)
             cell.isCollapsed = coctailData.isCollapsed
 
+            cell.topicSelectionHandler = { [weak self] in
+                let detailsVC = CoctailDetails(coctailData: coctailData)
+                self?.navigationController?.pushViewController(detailsVC, animated: true)
+            }
+
+            cell.selectionStyle = .none
+
             return cell
         }
     }
+
+    // MARK: - didSelectRowAt
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)

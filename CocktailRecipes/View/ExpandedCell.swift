@@ -79,6 +79,7 @@ class ExpandedCell: UITableViewCell {
         recipeButton.setTitle("Рецепт коктейля", for: .normal)
         recipeButton.setTitleColor(.systemBlue, for: .normal)
         recipeButton.titleLabel?.font = UIFont.systemFont(ofSize: 17)
+        recipeButton.addTarget(self, action: #selector(recipeButtonAction), for: .touchUpInside)
 
         contentView.addSubview(verticalStackView)
         verticalStackView.addArrangedSubview(coctailTitleLabel)
@@ -135,6 +136,10 @@ class ExpandedCell: UITableViewCell {
         self.coctailDescriptionEnLabel.text = coctailData.titleEn
         self.coctailImage.image = UIImage(named: coctailData.image)
         self.aboutCoctailsLabel.text = coctailData.aboutCoctail
+    }
+
+    @objc func recipeButtonAction() {
+        topicSelectionHandler?()
     }
 }
 

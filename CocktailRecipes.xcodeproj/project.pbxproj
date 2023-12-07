@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9434658E2B1617B400D92841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434658D2B1617B400D92841 /* AppDelegate.swift */; };
 		943465902B1617B400D92841 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434658F2B1617B400D92841 /* SceneDelegate.swift */; };
-		943465922B1617B400D92841 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465912B1617B400D92841 /* RecipesViewController.swift */; };
+		943465922B1617B400D92841 /* CoctailsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465912B1617B400D92841 /* CoctailsList.swift */; };
 		943465972B1617B500D92841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943465962B1617B500D92841 /* Assets.xcassets */; };
 		9434659A2B1617B500D92841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943465982B1617B500D92841 /* LaunchScreen.storyboard */; };
 		943465A22B16186C00D92841 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 943465A12B16186C00D92841 /* .gitignore */; };
@@ -20,6 +20,9 @@
 		943465B12B16531A00D92841 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465B02B16531A00D92841 /* Constants.swift */; };
 		943465B42B165FA200D92841 /* CoctailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943465B32B165FA200D92841 /* CoctailData.swift */; };
 		94DCC0DE2B1F90C300B1C342 /* ExpandedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DCC0DD2B1F90C300B1C342 /* ExpandedCell.swift */; };
+		94DCC1402B20D31900B1C342 /* CoctailDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DCC13F2B20D31900B1C342 /* CoctailDetails.swift */; };
+		94DCC1432B20D60600B1C342 /* CoctailDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DCC1422B20D60600B1C342 /* CoctailDetailsCell.swift */; };
+		94DCC1452B20D76100B1C342 /* DetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DCC1442B20D76100B1C342 /* DetailsHeaderView.swift */; };
 		94E3BE192B18C2F300D214E9 /* SF-Pro-Text-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE132B18C2F200D214E9 /* SF-Pro-Text-Thin.otf */; };
 		94E3BE1A2B18C2F300D214E9 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE142B18C2F300D214E9 /* SF-Pro-Text-Medium.otf */; };
 		94E3BE1B2B18C2F300D214E9 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94E3BE152B18C2F300D214E9 /* SF-Pro-Text-Bold.otf */; };
@@ -34,7 +37,7 @@
 		9434658A2B1617B400D92841 /* CocktailRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9434658D2B1617B400D92841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9434658F2B1617B400D92841 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		943465912B1617B400D92841 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		943465912B1617B400D92841 /* CoctailsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsList.swift; sourceTree = "<group>"; };
 		943465962B1617B500D92841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943465992B1617B500D92841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9434659B2B1617B500D92841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +47,9 @@
 		943465B02B16531A00D92841 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		943465B32B165FA200D92841 /* CoctailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailData.swift; sourceTree = "<group>"; };
 		94DCC0DD2B1F90C300B1C342 /* ExpandedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedCell.swift; sourceTree = "<group>"; };
+		94DCC13F2B20D31900B1C342 /* CoctailDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailDetails.swift; sourceTree = "<group>"; };
+		94DCC1422B20D60600B1C342 /* CoctailDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailDetailsCell.swift; sourceTree = "<group>"; };
+		94DCC1442B20D76100B1C342 /* DetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHeaderView.swift; sourceTree = "<group>"; };
 		94E3BE132B18C2F200D214E9 /* SF-Pro-Text-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Thin.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Thin.otf"; sourceTree = "<group>"; };
 		94E3BE142B18C2F300D214E9 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Medium.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
 		94E3BE152B18C2F300D214E9 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Bold.otf"; path = "../../../../../Training/Projects/Medium/Atlas StrongTeam/AtlasFinal/AtlasFinal/Support files/Fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
@@ -89,8 +95,8 @@
 			children = (
 				94E3BE272B1D37C400D214E9 /* CoctailsDataBase.swift */,
 				943465B22B165F4B00D92841 /* Model */,
-				943465A72B16508D00D92841 /* Controller */,
-				943465A82B16509500D92841 /* View */,
+				94DCC13C2B20ADF000B1C342 /* CoctailsList */,
+				94DCC13D2B20ADFF00B1C342 /* CoctailDetails */,
 				943465A32B16187E00D92841 /* Supporting files */,
 			);
 			path = CocktailRecipes;
@@ -113,7 +119,7 @@
 		943465A72B16508D00D92841 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				943465912B1617B400D92841 /* RecipesViewController.swift */,
+				943465912B1617B400D92841 /* CoctailsList.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -135,6 +141,41 @@
 				943465B32B165FA200D92841 /* CoctailData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		94DCC13C2B20ADF000B1C342 /* CoctailsList */ = {
+			isa = PBXGroup;
+			children = (
+				943465A72B16508D00D92841 /* Controller */,
+				943465A82B16509500D92841 /* View */,
+			);
+			name = CoctailsList;
+			sourceTree = "<group>";
+		};
+		94DCC13D2B20ADFF00B1C342 /* CoctailDetails */ = {
+			isa = PBXGroup;
+			children = (
+				94DCC13E2B20AE2E00B1C342 /* Controller */,
+				94DCC1412B20D5D100B1C342 /* View */,
+			);
+			path = CoctailDetails;
+			sourceTree = "<group>";
+		};
+		94DCC13E2B20AE2E00B1C342 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				94DCC13F2B20D31900B1C342 /* CoctailDetails.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		94DCC1412B20D5D100B1C342 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94DCC1422B20D60600B1C342 /* CoctailDetailsCell.swift */,
+				94DCC1442B20D76100B1C342 /* DetailsHeaderView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		94E3BE122B18C2E600D214E9 /* Fonts */ = {
@@ -236,12 +277,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E3BE282B1D37C400D214E9 /* CoctailsDataBase.swift in Sources */,
+				94DCC1452B20D76100B1C342 /* DetailsHeaderView.swift in Sources */,
 				943465AF2B1651AF00D92841 /* CollapsedCell.swift in Sources */,
 				94DCC0DE2B1F90C300B1C342 /* ExpandedCell.swift in Sources */,
+				94DCC1402B20D31900B1C342 /* CoctailDetails.swift in Sources */,
 				943465AA2B1650AC00D92841 /* TableHeaderView.swift in Sources */,
 				94E3BE342B1E4E9000D214E9 /* TableHeaderSection.swift in Sources */,
+				94DCC1432B20D60600B1C342 /* CoctailDetailsCell.swift in Sources */,
 				943465B12B16531A00D92841 /* Constants.swift in Sources */,
-				943465922B1617B400D92841 /* RecipesViewController.swift in Sources */,
+				943465922B1617B400D92841 /* CoctailsList.swift in Sources */,
 				943465B42B165FA200D92841 /* CoctailData.swift in Sources */,
 				9434658E2B1617B400D92841 /* AppDelegate.swift in Sources */,
 				943465902B1617B400D92841 /* SceneDelegate.swift in Sources */,

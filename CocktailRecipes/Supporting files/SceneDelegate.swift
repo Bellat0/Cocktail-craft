@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
 
         func createMainVC() -> UINavigationController {
-            let mainVC = RecipesViewController()
+            let mainVC = CoctailsList()
 
             mainVC.title = "CocktailRecipes"
 
